@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>studentsection</class>
+ <widget class="QDialog" name="studentsection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>678</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Student Section</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/new/img/Img/logo.jpg</normaloff>:/new/img/Img/logo.jpg</iconset>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 166, 130);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_viewstudentdetails">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>200</y>
+     <width>291</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 138, 103);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>VIEW STUDENT DETAILS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_postnotifications">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>310</y>
+     <width>261</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 138, 103);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>POST NOTIFICATIONS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_viewcvdetails">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>430</y>
+     <width>281</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 138, 103);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>VIEW CV DETAILS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_viewtestdetails">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>200</y>
+     <width>251</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 138, 103);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>VIEW TEST DETAILS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_postmeritlists">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>320</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 138, 103);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>GENERATE MERIT LISTS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_viewreports">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>550</y>
+     <width>371</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 138, 103);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>VIEW ALL REPORTS AT A GLANCE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_gotohome">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>610</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(129, 148, 126);
+border-radius:20%;
+
+font: 75 22pt &quot;Rockwell&quot;;
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Go To Home</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_viewnotice">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>430</y>
+     <width>271</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 138, 103);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>View Notice</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>351</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Gadugi</family>
+     <pointsize>26</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string>STUDENT SECTION</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>30</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/img/Img/Logout.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

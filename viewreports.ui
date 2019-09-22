@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>viewreports</class>
+ <widget class="QDialog" name="viewreports">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1285</width>
+    <height>764</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Reports</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/new/img/Img/logo.jpg</normaloff>:/new/img/Img/logo.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(247, 255, 88);</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>551</width>
+     <height>231</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_loadtablelist">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>100</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Click here</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(141, 141, 141);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>VIEW STUDENT DETAILS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_gotohome">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>390</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click here to go to Home</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(141, 141, 141);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>HOME</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_loadTestReport">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>400</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Click here</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(141, 141, 141);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>VIEW TEST REPORT</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_report">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>460</y>
+     <width>551</width>
+     <height>231</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_CV">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>150</y>
+     <width>581</width>
+     <height>231</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_Company">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>460</y>
+     <width>581</width>
+     <height>231</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_LoadCompany">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>410</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Click here</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(141, 141, 141);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>VIEW COMPANY DETAILS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_LoadCV">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>90</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Click here</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(141, 141, 141);
+border-radius:20%;
+
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>VIEW CV DETAILS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>20</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Click here to Logout</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/img/Img/logout.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>441</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Gadugi</family>
+     <pointsize>26</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string>REPORTS AT A GLANCE</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>
