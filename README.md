@@ -4,7 +4,8 @@
 
 ##### Some of the screenshots of the system
 
-![]()
-![]()
-![]()
-![]()
+![](studentloginpageloaded.JPG)
+![](studentmain.JPG)
+![](viewtestdetails.JPG)
+![](viewCVstudent.JPG)
+![](report.JPG)
